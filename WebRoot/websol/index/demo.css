@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+.demo-box{
+	width: 80px;
+	height: 200px
+}
+.demo-nav-bg{
+	background: orange;	
+}
+
+#hammerid{
+	width: 400px;
+	height: 20px;
+	border-width: 10px;
+	border-style: solid;
+	border-color: orange;
+}
