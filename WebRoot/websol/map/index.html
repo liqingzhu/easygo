@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>快易购------打造世界最好的O2O社交网络平台</title>
+    <!-- Bootstrap -->
+    <link href="../../assets/framework/bs3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/framework/flat/css/flat-ui.css" rel="stylesheet">
+    <!-- <link href="demo.css" rel="stylesheet"> -->
+    <!--[if gt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+      <style>
+      body {
+        min-height: 600px;
+        padding-top: 70px;
+      }
+    </style>
+
+
+
+
+<div class="container">
+  <div class="row">
+        <div class="col-xs-12">
+          <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                </button>
+                <a class="navbar-brand" href="#">快易购</a>
+              </div>
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">美食</a></li>
+                  <li><a href="#about">痛饮</a></li>
+                  <li><a href="#contact">快玩</a></li>
+                  <li><a href="#contact">享乐</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                 <li class="active"><a href="../login/index.html">登录</a></li>
+                  <li><a href="../register/index.html">注册</a></li>
+                </ul>
+              </div><!--/.nav-collapse -->
+            </div>
+          </div>
+
+        </div>
+      </div> <!-- /row -->
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-5">
+            <h5 class="text-danger">待执行的任务队列</h5>
+          <table class="table table-bordered table-condensed table-hover table-striped">
+             <thead>
+               <tr>
+                 <th>任务单号</th>
+                 <th>单数</th>
+                 <th>优先级</th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+               <tr>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+                 <td>表格单元格</td>
+               </tr>
+             </tbody>
+           </table>
+              <div class="pagination pagination-info">
+            <a href="#fakelink" class="btn btn-info previous">
+              <i class="fui-arrow-left"></i>
+              上一页
+            </a>
+            <ul>
+              <li><a href="#fakelink">1</a></li>
+              <li><a href="#fakelink">2</a></li>
+              <li><a href="#fakelink">3</a></li>
+              <li><a href="#fakelink">4</a></li>
+              <li><a href="#fakelink">5</a></li>
+            </ul>
+            <a href="#fakelink" class="btn btn-info next">
+              下一页
+              <i class="fui-arrow-right"></i>
+            </a>
+          </div> 
+    </div>
+    <div class="col-xs-7">
+        <div id="mapDiv" style="width:700px; height:520px"></div>
+        <div id="sub"></div>  
+    </div>
+  </div>
+</div>
+
+
+<script language="javascript" src="http://webapi.amap.com/maps?v=1.3&key=3e4ad80bb35e0d2f4a0ccd9779162923"></script>
+ <script src="mapcreate.js"></script>
+<!-- 
+      <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> -->
+      <script src="../../assets/framework/jq/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="../../assets/framework/bs3/js/bootstrap.min.js"></script>
+      <script src="../../assets/framework/flat/js/flat-ui.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>异步加载</title>
+</head>
+<body>
+<div id="mapDiv" style="width:400px; height:300px"></div>
+<script type="text/javascript">
+function init() {
+  var d = new Date();
+  var map = new AMap.Map(mapDiv, {
+  view:new AMap.View2D({
+    center: new AMap.LngLat(116.39, 39.9),
+    zoom:15
+   })
+  });
+}
+function loadScript() {
+  var script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = "http://webapi.amap.com/maps?v=1.3&key=649986fc76a02015467032647f9ecb1c&callback=init";
+  document.body.appendChild(script);
+}
+window.onload = loadScript;
+</script>
+</body>
+</html> -->
+
+
+
