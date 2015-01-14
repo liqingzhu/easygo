@@ -1,0 +1,1 @@
+DP.define(["comm::util","io/ajax","comm::mbox"],function(d,e){e("comm::util");return d.Class({initialize:function(b,a){this.node=b;this.options=a?a:{}},renderCurrentCity:function(b){var a=this.node.one("#city-link"),c=b.data.currentCity;c&&c.cityName&&a.one("span").html(c.cityName);a.one("a").on("click",function(a){a.prevent();b.clear();location.href=$(this).attr("href")})}})});

@@ -1,0 +1,2 @@
+DP.define(["io/jsonp","comm::data-model"],function(d,a){var f=a("io/jsonp"),g=a("comm::data-model");return d.Class({Extends:g,name:"head-info",data:{userInfo:{userId:0,userNickName:null},searchWords:[],hotCategoryWords:[],currentCity:{cityName:null,cityEnName:null}},_fetchData:function(a,e){var b=this,c={url:d.data("tDomain")+"/jsonp/pagehead",data:{}};a&&(c.data=a);c.data.action="headinfo";(new f(c)).on({success:function(a){if(a&&a.code){switch(a.code){case 200:b.bind(a.msg?a.msg:{});break;default:b.bind({})}e&&
+e.call(b,b.data)}}}).send()}})});

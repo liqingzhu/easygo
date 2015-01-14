@@ -1,0 +1,1 @@
+DP.define(["io/jsonp","comm::data-model"],function(d,a){var f=a("io/jsonp"),b=a("comm::data-model");return d.Class({Extends:b,name:"activity-ad",data:{},_fetchData:function(a,e){var c=this,b={url:d.data("tDomain")+"/activity/ad/mget?q="+a.q};(new f(b)).on({success:function(a){c.bind(a?a:{});e&&e.call(c,c.data)}}).send()}})});

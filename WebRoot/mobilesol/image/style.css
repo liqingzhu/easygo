@@ -1,0 +1,31 @@
+.index {
+	background: url("index.png") 0 0 no-repeat;
+	background-size: 480px;
+	height: 600px;
+	width:400px;
+	
+}
+#mod .pic {
+	width: 234px;
+	height: 484px;
+	float: left;
+	background: url(iphone.png) no-repeat;
+	position: relative;
+}
+
+.frame{
+	background: url("index.png")  no-repeat;
+	background-position: 20px 20px ;
+	height: 880px;
+	width: 800px;
+	margin-top: 20px;
+	/*margin-left: 10px;*/
+}
+
+.box-div{
+	/*position:relative;*/
+	width: 368px;
+	height: 680px;
+	margin-top: 90px;
+	margin-left: 49px;
+}

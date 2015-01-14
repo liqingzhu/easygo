@@ -1,0 +1,1 @@
+DP.define(["comm::util","io/ajax","comm::mbox"],function(a,d){d("comm::util");return a.Class({initialize:function(b,c){this.node=b;this.options=c?c:{}},initOnlineCustomer:function(){this.node.all("[data-id=online-customer]").on("click",function(b){b.prevent();a.provide("comm::customer",function(b,a){a.init()})})}})});
