@@ -1,10 +1,23 @@
+$scope.click(function(event) {
+    /* Act on the event */
+    alert('message');
+});
 $(document).ready(function($) {
-
+    // alert('message');
     console.log('---------');
     var navmenu   = $('#nav-menu');
+    navmenu.on('click',  function(event) {
+        alert('message');
+    });
+    console.log("---------abc-------->");
+    console.log($("#btninfo"));
+     $('#btninfo').bind('click', function() {
+          alert('User clicked on "foo."');
+        });
+      console.log($("#infobtninfo"));
+      console.log("--------abc------->");
+     $("#btninfo").bind('click', function() {alert("That tickles!"); });
     console.log('---------->'+navmenu);
-    
-    
     var mainLevel = $('#nav-level-main');
     console.log(mainLevel);
     var mainlevelTriggers = mainLevel.children('ul,li');
